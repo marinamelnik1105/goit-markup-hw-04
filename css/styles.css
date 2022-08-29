@@ -404,21 +404,20 @@ body {
     margin-right: 0;
 }
 
-.customers-list-item:hover,
-.customers-list-item:focus {
+.icon-customers {
+    fill: #AFB1B8;
+}
+
+.customers-link:hover,
+.customers-link:focus {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 
 }
 
-.icon-customers {
-    fill: #AFB1B8;
-}
-
 .customers-link:hover .icon-customers,
 .customers-link:focus .icon-customers {
     fill: var(--accent-color);
-
 
 }
 
